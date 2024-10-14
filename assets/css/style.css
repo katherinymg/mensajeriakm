@@ -1,0 +1,104 @@
+
+
+.grancontenedor{
+    display: flex;
+}
+
+.selfie{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    border-bottom: 3px solid #f1f3ef;
+}
+
+.logomano{
+    height: 20vh;
+    width: 20vh;
+}
+
+.mensajes{
+    width: 25%;
+    border-right: solid 3px #e6e7e5;
+}
+.texto-p{
+    font-size: 50px;
+}
+
+.textof{
+    font-size: 20px;
+}
+.seccionchats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.retrato{
+    width: 5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    padding: 0 1.5rem;
+}
+
+.nuevomensaje{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+    border-top: 3px solid #f1f3ef;
+}
+.boton{
+    background-color: #8e7db4;
+    border: none;
+      color: white;
+      width: 12.5rem;
+      height: 3.5rem;
+      padding: 10px 20px;
+}
+
+p{
+    margin-bottom: 0.3em;
+}
+
+
+.saladechats{
+    flex-direction: column;
+    display: flex;
+    width: 75%;
+    background-color: #f0eded;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    padding-right: 0.2rem;
+}
+
+.nombrecontacto{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.yo{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.frase{
+    font-size: large;
+
+}
+
